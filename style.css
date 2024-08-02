@@ -30,8 +30,8 @@ main{
 
 }
 .imgcontain{
-    max-width: 800px;
-    max-height: 90vh;
+    max-width: 1000px;
+    max-height: 95vh;
 }
 img{
     width:800px;
@@ -88,4 +88,26 @@ img{
 svg{
     transform-origin: center; 
     transform: rotate(90deg); /* Rotates the icon 45 degrees */ 
+}
+.description{
+    position:absolute;
+    left:25px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    width:30vw;
+    justify-content: center;
+    padding: 20px;
+}
+.pic{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color:red;
+    font-weight: bold;
+    text-decoration: underline;
 }
