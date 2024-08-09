@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.intro{
+padding-left:100px;
+}
 /* Body Styles */
 body {
     padding-top:20px;
